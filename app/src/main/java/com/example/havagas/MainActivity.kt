@@ -113,5 +113,26 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        amb.limparBt.setOnClickListener {
+            amb.nomeCompletoEt.setText("")
+            amb.emailEt.setText("")
+            amb.telefoneEt.setText("")
+            amb.telefoneCelularEt.setText("")
+            amb.telefoneCelularEt.visibility = View.GONE
+            amb.vagasInteresseEt.setText("")
+            amb.receberEmailsRg.clearCheck()
+            amb.telefoneTipoRg.clearCheck()
+            amb.sexoRg.clearCheck()
+            amb.dataNascimentoDp.updateDate(2000, 0, 1)
+            amb.formacaoSp.setSelection(0)
+            amb.anoFormacaoEt.setText("")
+            amb.instituicaoEt.setText("")
+            amb.tituloMonografiaEt.setText("")
+            amb.orientadorEt.setText("")
+            amb.anoFormacaoEt.visibility = View.GONE
+            amb.instituicaoEt.visibility = View.GONE
+            amb.tituloMonografiaEt.visibility = View.GONE
+            amb.orientadorEt.visibility = View.GONE
+        }
     }
 }
