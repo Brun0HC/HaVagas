@@ -116,14 +116,14 @@
                 android:id="@+id/comercialRb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/comercialRb"/>
+                android:text="@string/comercialRb"
+                android:checked="true"/>
 
             <RadioButton
                 android:id="@+id/residencialRb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/residencialRb"
-                android:checked="true"/>
+                android:text="@string/residencialRb" />
 
         </RadioGroup>
 

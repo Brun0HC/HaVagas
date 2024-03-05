@@ -50,6 +50,16 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        amb.telefoneCelularBt.setOnClickListener {
+            if (amb.telefoneCelularEt.visibility == View.GONE) {
+                amb.telefoneCelularEt.visibility = View.VISIBLE
+            } else {
+                amb.telefoneCelularEt.visibility = View.GONE
+            }
+        }
+
+
+
 
         amb.salvarBt.setOnClickListener {
             val nomeCompleto = amb.nomeCompletoEt.text.toString()
@@ -120,9 +130,9 @@ class MainActivity : AppCompatActivity() {
             amb.telefoneCelularEt.setText("")
             amb.telefoneCelularEt.visibility = View.GONE
             amb.vagasInteresseEt.setText("")
-            amb.receberEmailsRg.clearCheck()
-            amb.telefoneTipoRg.clearCheck()
-            amb.sexoRg.clearCheck()
+            amb.receberEmailsRg.check(amb.simRb.id)
+            amb.telefoneTipoRg.check(amb.comercialRb.id)
+            amb.sexoRg.check(amb.masculinoRb.id)
             amb.dataNascimentoDp.updateDate(2000, 0, 1)
             amb.formacaoSp.setSelection(0)
             amb.anoFormacaoEt.setText("")
