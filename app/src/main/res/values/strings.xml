@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">HaVagas</string>
+    <string name="preenchaDadosTv">Preencha os dados abaixo</string>
+    <string name="nomeCompletoEt">Nome completo</string>
+    <string name="emailEt">E-mail</string>
+    <string name="receberEmailsTv">Deseja receber e-mails com atualizações de oportunidades?</string>
+    <string name="simRb">Sim</string>
+    <string name="naoRb">Não</string>
+    <string name="telefoneTipoTv">Escolha o tipo de telefone e digite seu número abaixo</string>
+    <string name="comercialRb">Comercial</string>
+    <string name="residencialRb">Residencial</string>
+    <string name="telefoneEt">Telefone</string>
+    <string name="telefoneCelularBt">Clique aqui para adicionar seu telefone celular</string>
+    <string name="telefoneCelularEt">Telefone celular</string>
+    <string name="sexoTv">Sexo</string>
+    <string name="femininoRb">Feminino</string>
+    <string name="masculinoRb">Masculino</string>
+    <string name="dataNascimentoTv">Data de nascimento</string>
+    <string name="anoFormacaoEt">Ano de conclusão</string>
+    <string name="instituicaoEt">Instituição</string>
+    <string name="tituloMonografiaEt">Título da monografia</string>
+    <string name="orientadorEt">Orientador</string>
+    <string name="vagasInteresseEt">Escreva aqui as vagas de seu interesse</string>
+    <string name="salvarBt">Salvar</string>
+    <string name="limparBt">Limpar</string>
+    <string-array name="formacao">
+        <item>Formação</item>
+        <item>Fundamental</item>
+        <item>Médio</item>
+        <item>Graduação</item>
+        <item>Especialização</item>
+        <item>Mestrado</item>
+        <item>Doutorado</item>
+    </string-array>
 </resources>
