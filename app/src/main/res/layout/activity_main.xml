@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="25sp"
+            android:background="#9fddf5"
             android:text="@string/preenchaDadosTv"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -190,17 +191,17 @@
             app:layout_constraintTop_toBottomOf="@+id/telefoneCelularEt">
 
             <RadioButton
-                android:id="@+id/femininoRb"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/femininoRb"
-                android:checked="true"/>
-
-            <RadioButton
                 android:id="@+id/masculinoRb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/masculinoRb"/>
+                android:text="@string/masculinoRb"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/femininoRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/femininoRb" />
 
         </RadioGroup>
 
